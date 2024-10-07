@@ -1,0 +1,31 @@
+#header{
+    text-align: center;
+    height: 100px;
+    background-color: #123e5c;
+    color: aliceblue;
+    padding-top: 40px;
+    grid-area: header;
+}
+#articulos{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;  
+    padding: 10px;
+    background-color: rgb(221, 221, 221);
+    margin-bottom: 10px;
+}
+body{
+    display: grid;
+    grid-template-areas:"header header header"
+                         "inicio principal principal";
+}
+
+#inicio{
+    grid-area: inicio;
+}
+#principal{
+    display: flex;
+    flex-direction: column;
+    grid-area: principal;
+}
+
