@@ -41,7 +41,7 @@
         }
      
             $articulos = [
-              new Post("Titulo 1", "Contenido 1", ['viajes', 'nombre', 'html']),
+              new Post("Titulo 1", "Contenido 1", ['viajes', 'nombre', 'html']), 
               new Post("Titulo 2", "Contenido 2", ["viaj", "nombre", "htm"])
              
             ];
